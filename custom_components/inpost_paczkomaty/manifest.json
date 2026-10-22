@@ -14,8 +14,7 @@
   "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/jakon89/Inpost-Paczkomaty/issues",
   "requirements": [
-    "dacite==1.9.2",
-    "python-slugify==8.0.4"
+    "dacite==1.9.2"
   ],
   "ssdp": [],
   "version": "0.4.1",
