@@ -868,7 +868,6 @@ version = "0.4.1"
 source = { virtual = "." }
 dependencies = [
     { name = "dacite" },
-    { name = "python-slugify" },
 ]
 
 [package.dev-dependencies]
@@ -882,10 +881,7 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [
-    { name = "dacite", specifier = "==1.9.2" },
-    { name = "python-slugify", specifier = "==8.0.4" },
-]
+requires-dist = [{ name = "dacite", specifier = "==1.9.2" }]
 
 [package.metadata.requires-dev]
 dev = [
